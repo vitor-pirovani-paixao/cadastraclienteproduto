@@ -1,4 +1,4 @@
-# Sistema pa cadastramento de clientes e produtos
+# Sistema para cadastramento de clientes e produtos
 Criação de um sistema e-commerce para inventário de produtos e dados de clientes
 
 # Conteúdo:
