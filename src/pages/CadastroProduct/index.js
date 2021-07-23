@@ -37,23 +37,23 @@ export default function CadastroProduct(){
             <S.Container>
                 <form onSubmit={salvarDados}>
                     <label>Nome</label><br/>
-                    <input type="text" value={nome} size="50" onChange={(event)=>{setNome(event.target.value)}} />
+                    <input type="text" value={nome}  onChange={(event)=>{setNome(event.target.value)}} />
                     <br/>
                     <label>ID</label><br/>
-                    <input type="number" value={id} size="50" onChange={(event)=>{setId(event.target.value)}}/>
+                    <input type="number" value={id} onChange={(event)=>{setId(event.target.value)}}/>
                     <br/>
                     <label>Marca</label><br/>
-                    <input type="text" value={marca} size="50" onChange={(event)=>{setMarca(event.target.value)}}/>
+                    <input type="text" value={marca} onChange={(event)=>{setMarca(event.target.value)}}/>
                     <br/>
                     <label>Modelo</label><br/>
-                    <input type="text" value={modelo} size="50" onChange={(event)=>{setModelo(event.target.value)}}/>
+                    <input type="text" value={modelo}  onChange={(event)=>{setModelo(event.target.value)}}/>
                     <br/>
                     <label>Largura (cm)</label><br/> <input type="number" value={tamanhoA} onChange={(event)=>{setTamanhoA(event.target.value)}}/><br/>
                     <label>Comprimento (cm)</label><br/><input type="number" value={tamanhoB} onChange={(event)=>{setTamanhoB(event.target.value)}}/><br/>
                     <label>Altura (cm)</label> <br/><input type="number" value={tamanhoC} onChange={(event)=>{setTamanhoC(event.target.value)}}/>
                     <br/>
                     <label>Peso (kg)</label><br/>
-                    <input type="number" value={peso} size="50" onChange={(event)=>{setPeso(event.target.value)}}/>
+                    <input type="number" value={peso}  onChange={(event)=>{setPeso(event.target.value)}}/>
                     <br/>
                     <label>Descrição</label><br/>
                     <textarea cols="50" rows="10" value={descrição} onChange={(event)=>{descricao(event.target.value)}}/>

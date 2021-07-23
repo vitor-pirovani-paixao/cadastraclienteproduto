@@ -72,36 +72,36 @@ export default function CadastroUser(){
             <S.Container>
                 <form onSubmit={salvarDados}>
                     <label>Nome</label><br/>
-                    <input type="text" value={nome} size="50" onChange={(event)=>{setNome(event.target.value)}} />
+                    <input type="text" value={nome}  onChange={(event)=>{setNome(event.target.value)}} />
                     <br/>
                     <label>CEP</label><br/>
-                    <input type="number" value={cep} size="50" onChange={(event)=>{setCep(event.target.value)}}/>
+                    <input type="number" value={cep}  onChange={(event)=>{setCep(event.target.value)}}/>
                     <button onClick={(event)=>buscaEndereco(event)}>Pesquisar</button>
                     <br/>
                     <label>Endereço</label><br/>
-                    <input type="text" value={endereco} size="50" onChange={(event)=>{setEndereco(event.target.value)}}/>
+                    <input type="text" value={endereco} onChange={(event)=>{setEndereco(event.target.value)}}/>
                     <label>Número</label>
-                    <input type="number" value={numero} size="10" onChange={(event)=>{setNumero(event.target.value)}}/>
+                    <input type="number" value={numero}  onChange={(event)=>{setNumero(event.target.value)}}/>
                     <br/>
                     <label>Complemento</label><br/>
-                    <input type="text" value={complemento} size="50" onChange={(event)=>{setComplemento(event.target.value)}}/>
+                    <input type="text" value={complemento}  onChange={(event)=>{setComplemento(event.target.value)}}/>
                     <br/>
                     <label>Bairro</label><br/>
-                    <input type="text" value={bairro} size="50" onChange={(event)=>{setBairro(event.target.value)}}/>
+                    <input type="text" value={bairro} onChange={(event)=>{setBairro(event.target.value)}}/>
                     <br/>
                     <label>Cidade</label><br/>
-                    <input type="text" value={cidade} size="50" onChange={(event)=>{setCidade(event.target.value)}}/>
+                    <input type="text" value={cidade}  onChange={(event)=>{setCidade(event.target.value)}}/>
                     <label>UF</label>
-                    <input type="text" maxLength="2" value={uf} size="1" onChange={(event)=>{setUf(event.target.value)}}/>
+                    <input type="text" maxLength="2" value={uf}  onChange={(event)=>{setUf(event.target.value)}}/>
                     <br/>
                     <label>CPF</label><br/>
-                    <input type="number" value={cpf} size="50" onChange={(event)=>{setCpf(event.target.value)}}/>
+                    <input type="number" value={cpf}  onChange={(event)=>{setCpf(event.target.value)}}/>
                     <br/>
                     <label>Telefone</label><br/>
-                    <input type="tel" value={telefone} size="50" onChange={(event)=>{setTelefone(event.target.value)}}/>
+                    <input type="tel" value={telefone} onChange={(event)=>{setTelefone(event.target.value)}}/>
                     <br/>
                     <label>E-mail</label><br/>
-                    <input type="email" value={email} size="50" onChange={(event)=>{setEmail(event.target.value)}}/>
+                    <input type="email" value={email}  onChange={(event)=>{setEmail(event.target.value)}}/>
                     <br/>
                     <input type="submit" id="botao" value="Cadastrar" ></input>
                 </form>
